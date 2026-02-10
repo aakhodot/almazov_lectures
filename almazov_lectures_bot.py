@@ -34,11 +34,12 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # =======================
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-ADMIN_IDS = {
-    int(x)
-    for x in os.getenv("ADMIN_IDS", "").replace(" ", "").split(",")
-    if x.isdigit()
-}
+# ADMIN_IDS = {
+#     int(x)
+#     for x in os.getenv("ADMIN_IDS", "").replace(" ", "").split(",")
+#     if x.isdigit()
+# }
+ADMIN_IDS = {551486982, 461203468}
 
 if not BOT_TOKEN:
     raise RuntimeError("Не задан TELEGRAM_BOT_TOKEN в переменных окружения.")
