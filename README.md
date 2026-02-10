@@ -32,13 +32,13 @@ pip install -r requirements.txt
 ```powershell
 $env:TELEGRAM_BOT_TOKEN = "ВАШ_ТОКЕН"
 $env:ADMIN_IDS = "12345"
-python bot3.py
+python almazov_lectures_bot.py
 ```
 
 ### Запуск бота
 
 ```bash
-python bot3.py
+python almazov_lectures_bot.py
 ```
 
 ### Замечания по проверке геолокации
